@@ -1,0 +1,6 @@
+emp_id,name,job_role,package_lpa,degree,experience_years,dept_name,location
+104,"Sneha Roy","HR Manager",6.00,MBA,1,HR,Mumbai
+102,"Priya Das","Sales Executive",5.20,MBA,2,Sales,Delhi
+101,"Amit Sharma","Software Engineer",7.50,B.Tech,3,Engineering,Bangalore
+105,"Karan Patel","Data Scientist",9.00,M.Tech,5,Engineering,Bangalore
+103,"Rahul Mehra","Finance Analyst",6.80,B.Com,4,Finance,Kolkata
