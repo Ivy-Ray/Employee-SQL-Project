@@ -1,77 +1,37 @@
-Employee-SQL-Project
-Corporate Employee Management Project using SQL
-# Create the README.md file content again with clean formatting for GitHub
-readme_content = """
-# 💼 Employee Management SQL Project
-
-📋 Project Summary
-A beginner-friendly SQL project designed to simulate a corporate HR system. This project manages employee records, job roles, departments, salaries, education qualifications, and performance reviews.
-
----
-
-🧱 Features
-- 👨‍💼 Track employee information including roles, salaries, and experience
-- 🏢 Manage departments and locations
-- 📈 Performance review system for employees
-- 📊 Useful queries for HR analytics and decision-making
-
----
-
-🗃️ Tables Included
-1. **Departments** – Department ID, name, and location
-2. **Employees** – Employee details with foreign key to department
-3. **Performance** – Review score for each employee
-
----
-
-🛠 Technologies Used
-- SQL (MySQL)
-- GitHub for version control
-
 import os
 
-# Create the folder structure
+Create the folder structure
 project_folder = "/mnt/data/Employee-SQL-Project"
 os.makedirs(project_folder, exist_ok=True)
 
-# README.md content
+README.md content
 readme_content = """
-# 💼 Employee Management SQL Project
+💼 Employee Management SQL Project
 
-## 📋 Project Summary
+📋 Project Summary
 A beginner-friendly SQL project designed to simulate an HR system for managing employee data in a corporate environment. It includes departments, employee roles, salaries, education background, and performance tracking.
 
-## 🧱 Features:
+🧱 Features:
 - Tracks employees, departments, and performance reviews
 - Supports queries like average salary, top performers, and department statistics
 - Easy to understand table relationships using foreign keys
 
-## 🛠 Tables Used:
+🛠 Tables Used:
 1. **Employees**
 2. **Departments**
 3. **Performance**
 
-## 📊 Sample SQL Queries:
+📊 Sample SQL Queries:
 - List all employees with department names and locations
 - Show top 5 performers based on review scores
 - Find the average salary for each department
 - Identify freshers (experience ≤ 1 year)
 
-## 💡 Technologies Used:
+💡 Technologies Used:
 - SQL (MySQL / PostgreSQL / SQLite)
 - GitHub for version control
-- Optional: dbdiagram.io for ER diagram
 
-## 📎 How to Run:
-1. Import the `employee_project.sql` into your SQL environment.
-2. Use queries from `sample_outputs.txt` or create your own.
-3. Optional: Visualize table relationships using `ER_diagram.png`.
-
-## 🔗 GitHub Repository
-(Replace this with your repo link once uploaded)
-"""
-
-# SQL file content (schema + sample inserts + queries)
+SQL file content (schema + sample inserts + queries)
 sql_content = """
 -- === Department Table ===
 CREATE TABLE Departments (
